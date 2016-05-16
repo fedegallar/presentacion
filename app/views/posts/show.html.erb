@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+<div class="well">
+	<p>
+  		<h1><%= @post.name %></h1>
+	</p>
+
+	<p>
+  		<%= @post.content.html_safe %>
+	</p>
+</div>
+<%= link_to("Anterior", @post.previous_post,class: 'btn btn-default') if @post.previous_post %>	
+<%= link_to("Siguiente", @post.next_post,class: 'pull-right btn btn-default') if @post.next_post %>

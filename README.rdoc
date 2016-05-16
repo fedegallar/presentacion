@@ -1,0 +1,16 @@
+PRENSENTACION's APP
+
+Made by Federico Gallardo.
+
+RUBY VERSION:
+
+	-ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
+
+DATABASE:
+	-Work with MySQL
+
+RELEASES:
+
+	-16052016:
+				-Added Post with name and content.
+				-Added an post_number to Post to make easly order all the posts of a presentation.
